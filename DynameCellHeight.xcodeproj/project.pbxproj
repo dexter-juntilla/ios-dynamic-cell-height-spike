@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23387ED1E53E2FF006B84F2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23387EC1E53E2FF006B84F2 /* CustomCell.swift */; };
 		A2E9F9EB1E4170A5008E946B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E9F9EA1E4170A5008E946B /* AppDelegate.swift */; };
 		A2E9F9ED1E4170A5008E946B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E9F9EC1E4170A5008E946B /* ViewController.swift */; };
 		A2E9F9F01E4170A5008E946B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E9F9EE1E4170A5008E946B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A23387EC1E53E2FF006B84F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A2E9F9E71E4170A5008E946B /* DynameCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynameCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E9F9EA1E4170A5008E946B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E9F9EC1E4170A5008E946B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				A2E9F9EA1E4170A5008E946B /* AppDelegate.swift */,
 				A2E9F9EC1E4170A5008E946B /* ViewController.swift */,
+				A23387EC1E53E2FF006B84F2 /* CustomCell.swift */,
 				A2E9F9EE1E4170A5008E946B /* Main.storyboard */,
 				A2E9F9F11E4170A5008E946B /* Assets.xcassets */,
 				A2E9F9F31E4170A5008E946B /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2E9F9ED1E4170A5008E946B /* ViewController.swift in Sources */,
+				A23387ED1E53E2FF006B84F2 /* CustomCell.swift in Sources */,
 				A2E9F9EB1E4170A5008E946B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				A2E9FA111E4170A5008E946B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2E9FA121E4170A5008E946B /* Build configuration list for PBXNativeTarget "DynameCellHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				A2E9FA141E4170A5008E946B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2E9FA151E4170A5008E946B /* Build configuration list for PBXNativeTarget "DynameCellHeightUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				A2E9FA171E4170A5008E946B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
